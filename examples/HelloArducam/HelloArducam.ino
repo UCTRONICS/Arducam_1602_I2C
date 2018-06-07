@@ -1,6 +1,7 @@
 //www.uctronics.com
 //Add support detecting the i2c address automaticly.
 //Users don't need to care the i2c address.
+// After upload the demo, please reset your MCU.
 //Update 07/06/2018
 #include <Wire.h>
 #include <Arducam_I2C.h>
