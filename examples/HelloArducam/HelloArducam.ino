@@ -5,7 +5,7 @@
 #include <Wire.h>
 #include <Arducam_I2C.h>
 
-Arducam_I2C lcd(0x227, 16, 2); // set the LCD address to 0x3F for a 16 chars and 2 line display,If not work,
+Arducam_I2C lcd(0x3f, 16, 2); // set the LCD address to 0x3F for a 16 chars and 2 line display,If not work,
 // you can set it to 0x27 to try. The I2c address is defined by your I2C controller.
 void setup()
 {
