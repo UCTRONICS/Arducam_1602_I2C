@@ -1,10 +1,5 @@
-//www.DFRobot.com
-//last updated on 21/12/2011
-//Tim Starling Fix the reset bug (Thanks Tim)
-//wiki doc http://www.dfrobot.com/wiki/index.php?title=I2C/TWI_LCD1602_Module_(SKU:_DFR0063)
-//Support Forum: http://www.dfrobot.com/forum/
-//Compatible with the Arduino IDE 1.0
-//Library version:1.1
+//www.uctronics.com
+
 
 
 #include "Arducam_I2C.h"
@@ -16,7 +11,7 @@
 #define printIIC(args)	Wire.write(args)
 inline size_t Arducam_I2C::write(uint8_t value) {
 	send(value, Rs);
-	return 0;
+	return 1;
 }
 
 #else
